@@ -63,6 +63,9 @@ nav {
 
 .billeder1 img {
   max-width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .billeder2 {
