@@ -14,7 +14,6 @@ main {
 body {
   background-image: url(medier/baggrund.png);
   background-size: cover;
-
   max-width: 1400px;
   margin-left: 10%;
   margin-right: 10%;
