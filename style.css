@@ -136,3 +136,49 @@ nav {
   margin-left: 10%;
   margin-right: 10%;
 }
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 15px;
+  }
+  p {
+    font-size: 10px;
+  }
+  navm a {
+    font-size: 15px;
+  }
+
+  .mood_mia {
+    border: 2px solid rgb(23, 29, 145);
+    padding: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .link {
+    font-size: 10px;
+    display: grid;
+    place-items: center;
+  }
+  .knap {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.491);
+    text-decoration: none;
+    border: 2px solid rgb(23, 29, 145);
+  }
+  nav a {
+    font-size: 15px;
+    text-decoration: none;
+    padding: 5px;
+    color: rgb(23, 29, 145);
+    border: 1px solid;
+  }
+  nav {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+  }
+}
